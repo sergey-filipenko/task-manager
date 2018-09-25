@@ -6,6 +6,10 @@
   width: 60%;
   float: left;
 }
+h3 {
+  text-align: left;
+  padding-left: 10px;
+}
 .notes {
   margin-left: 5%;
   width: 35%;
@@ -14,6 +18,12 @@
 .form-group {
   float: left;
 }
+.notes label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
 fieldset {
   float: left;
   border: none;
@@ -32,8 +42,13 @@ input {
 .notes .note {
   text-align: left;
   padding: 3px 0;
+  margin-left: 125px;
 }
-.active .react-grid-Cell{
+
+.react-grid-Row:hover .react-grid-Cell {
+  background-color: #7CEFC5;
+}
+.active .react-grid-Cell {
   background-color: aquamarine;
 }
 button {
@@ -45,6 +60,7 @@ button {
 }
 .task-buttons {
   text-align: left;
+  margin-bottom: 20px;
 }
 .btn-submit, .btn-start {
   background-color: aquamarine;
