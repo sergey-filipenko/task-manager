@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+.tasks {
+  width: 60%;
+  float: left;
+}
+.notes {
+  margin-left: 5%;
+  width: 35%;
+  float: left;
+}
+.form-group {
+  float: left;
+}
+fieldset {
+  float: left;
+  border: none;
+}
+.field > div {
+  display: none;
+}
+input {
+  padding: 5px;
+  margin-left: 10px;
+}
+.buttons {
+  float: left;
+  padding: 6px;
+}
+.notes .note {
+  text-align: left;
+  padding: 3px 0;
+}
+.active .react-grid-Cell{
+  background-color: aquamarine;
+}
+button {
+  padding: 6px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 2px;
+}
+.task-buttons {
+  text-align: left;
+}
+.btn-submit, .btn-start {
+  background-color: aquamarine;
+}
+.btn-cancel, .btn-stop {
+  background-color: lightcoral;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
